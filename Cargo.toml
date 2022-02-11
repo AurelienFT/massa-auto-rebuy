@@ -12,4 +12,5 @@ massa-signature = { git = "https://github.com/massalabs/massa", package = "massa
 anyhow = "1.0"
 jsonrpc-core-client = { version = "18.0.0", features = ["http", "tls"] }
 tokio = "1"
+paw = "1"
 serde = "1.0.136"

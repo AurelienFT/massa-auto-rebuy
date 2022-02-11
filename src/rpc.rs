@@ -14,7 +14,6 @@ use std::net::{IpAddr, SocketAddr};
 use anyhow::{Result, bail};
 use massa_wallet::Wallet;
 use massa_models::{Amount, timeslots::get_current_latest_block_slot};
-use serde::Serialize;
 
 macro_rules! rpc_error {
     ($e:expr) => {
