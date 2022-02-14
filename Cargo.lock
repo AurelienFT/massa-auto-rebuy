@@ -638,7 +638,7 @@ dependencies = [
 [[package]]
 name = "massa_hash"
 version = "0.1.0"
-source = "git+https://github.com/massalabs/massa#22f2899581c4822b89de8bcdac6f3e5588a4616f"
+source = "git+https://github.com/massalabs/massa?tag=TEST.7.0#852d3ed94f5db6eaef5365c3a5b10eaeecb95b52"
 dependencies = [
  "bitcoin_hashes",
  "bs58",
@@ -652,7 +652,7 @@ dependencies = [
 [[package]]
 name = "massa_models"
 version = "0.1.0"
-source = "git+https://github.com/massalabs/massa#22f2899581c4822b89de8bcdac6f3e5588a4616f"
+source = "git+https://github.com/massalabs/massa?tag=TEST.7.0#852d3ed94f5db6eaef5365c3a5b10eaeecb95b52"
 dependencies = [
  "displaydoc",
  "integer-encoding",
@@ -673,7 +673,7 @@ dependencies = [
 [[package]]
 name = "massa_signature"
 version = "0.1.0"
-source = "git+https://github.com/massalabs/massa#22f2899581c4822b89de8bcdac6f3e5588a4616f"
+source = "git+https://github.com/massalabs/massa?tag=TEST.7.0#852d3ed94f5db6eaef5365c3a5b10eaeecb95b52"
 dependencies = [
  "bitcoin_hashes",
  "bs58",
@@ -689,7 +689,7 @@ dependencies = [
 [[package]]
 name = "massa_time"
 version = "0.1.0"
-source = "git+https://github.com/massalabs/massa#22f2899581c4822b89de8bcdac6f3e5588a4616f"
+source = "git+https://github.com/massalabs/massa?tag=TEST.7.0#852d3ed94f5db6eaef5365c3a5b10eaeecb95b52"
 dependencies = [
  "chrono",
  "displaydoc",
@@ -701,7 +701,7 @@ dependencies = [
 [[package]]
 name = "massa_wallet"
 version = "0.1.0"
-source = "git+https://github.com/massalabs/massa#22f2899581c4822b89de8bcdac6f3e5588a4616f"
+source = "git+https://github.com/massalabs/massa?tag=TEST.7.0#852d3ed94f5db6eaef5365c3a5b10eaeecb95b52"
 dependencies = [
  "displaydoc",
  "massa_hash",
