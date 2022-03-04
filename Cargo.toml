@@ -6,9 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-massa-models = { git = "https://github.com/massalabs/massa", tag = "TEST.7.0", package = "massa_models" }
-massa-wallet = { git = "https://github.com/massalabs/massa", tag = "TEST.7.0", package = "massa_wallet" }
-massa-signature = { git = "https://github.com/massalabs/massa", tag = "TEST.7.0", package = "massa_signature" }
+massa-models = { git = "https://github.com/massalabs/massa", tag = "TEST.8.0", package = "massa_models" }
+massa-wallet = { git = "https://github.com/massalabs/massa", tag = "TEST.8.0", package = "massa_wallet" }
+massa-signature = { git = "https://github.com/massalabs/massa", tag = "TEST.8.0", package = "massa_signature" }
 anyhow = "1.0"
 jsonrpc-core-client = { version = "18.0.0", features = ["http", "tls"] }
 tokio = "1"
